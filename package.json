@@ -1,6 +1,6 @@
 {
   "name": "require-precompute",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Simon Lydell",
   "license": "MIT",
   "description": "Make it easier to create a `require` implementation.",

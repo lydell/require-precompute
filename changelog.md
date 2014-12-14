@@ -1,4 +1,4 @@
-### Version 0.2.0 (Unreleased) ###
+### Version 0.2.0 (2014-12-14) ###
 
 - Changed: If a module has a package.json, only the dependencies listed in the
   `dependencies` property will appear in the output (excluding

@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "hasOwnProperty": "*",
+    "depends-on-hasOwnProperty": "*"
+  }
+}

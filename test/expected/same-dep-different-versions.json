@@ -1,0 +1,8 @@
+{
+  "./node_modules/common": {
+    "": "main"
+  },
+  "./node_modules/depends-on-common/node_modules/common": {
+    "": "lib/main"
+  }
+}

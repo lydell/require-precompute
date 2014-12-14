@@ -1,0 +1,28 @@
+{
+  "name": "require-precompute",
+  "version": "0.1.0",
+  "author": "Simon Lydell",
+  "license": "MIT",
+  "description": "Make it easier to create a `require` implementation.",
+  "repository": "lydell/require-precompute",
+  "keywords": [
+    "require",
+    "resolve",
+    "precompute",
+    "firefox",
+    "addon",
+    "extension"
+  ],
+  "bin": {
+    "require-precompute": "./cli.js"
+  },
+  "scripts": {
+    "lint": "jshint index.js test/*.js",
+    "unit": "mocha",
+    "test": "npm run lint && npm run unit"
+  },
+  "devDependencies": {
+    "jshint": "^2.5.10",
+    "mocha": "^2.0.1"
+  }
+}

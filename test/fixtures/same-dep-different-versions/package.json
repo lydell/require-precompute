@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "common": "1.x",
+    "depends-on-common": "*"
+  }
+}

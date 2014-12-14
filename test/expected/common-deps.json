@@ -1,0 +1,9 @@
+{
+  "./node_modules/depends-on-common-root": {
+    "common-root": "."
+  },
+  "./node_modules/depends-on-common-root/node_modules/also-depends-on-common-root": {
+    "common-root": ".",
+    "common-local": "./node_modules/depends-on-common-root"
+  }
+}

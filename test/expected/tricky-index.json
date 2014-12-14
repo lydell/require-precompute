@@ -1,0 +1,11 @@
+{
+  "./node_modules/e": {
+    "": "index.JS"
+  },
+  "./node_modules/f": {
+    "": "sindex"
+  },
+  "./node_modules/g": {
+    "":"lib/index"
+  }
+}

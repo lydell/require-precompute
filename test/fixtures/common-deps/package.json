@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "common-root": "*",
+    "depends-on-common-root": "*"
+  }
+}

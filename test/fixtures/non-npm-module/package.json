@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "non-npm-module": "someuser/non-npm-module"
+  }
+}

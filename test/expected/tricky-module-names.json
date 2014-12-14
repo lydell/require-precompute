@@ -1,0 +1,5 @@
+{
+  "./node_modules/depends-on-hasOwnProperty": {
+    "hasOwnProperty": "."
+  }
+}

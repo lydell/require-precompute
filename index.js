@@ -38,7 +38,11 @@ function parseDirRecursive(dir, parent, name) {
 
   var modulesDir = path.join(dir, "node_modules")
   if (fs.existsSync(modulesDir)) {
-    fs.readdirSync(modulesDir).forEach(function(name) {
+    var names = fs.readdirSync(modulesDir)
+    if (module.package) {
+      names = names.filter(has.bind(null, module.package.dependencies || {}))
+    }
+    names.forEach(function(name) {
       module.node_modules[name] =
         parseDirRecursive(path.join(modulesDir, name), module, name)
     })

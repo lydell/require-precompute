@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "a": "*",
+    "b": "*",
+    "c": "*"
+  },
+  "devDependencies": {
+    "dev-a": "*",
+    "dev-b": "*",
+    "dev-c": "*"
+  }
+}
